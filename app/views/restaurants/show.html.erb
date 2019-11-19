@@ -1,0 +1,12 @@
+<div class="card-trip">
+  <img src="https://cdn.vox-cdn.com/thumbor/mb1bZOpagnQXS68zMyb34Q2ZnxE=/58x0:966x681/1200x800/filters:focal(58x0:966x681)/cdn.vox-cdn.com/uploads/chorus_image/image/47473894/6079842006_df0f2d3471_b.0.0.jpg" />
+  <div class="card-trip-infos">
+    <div>
+     <h1><%= @restaurant.name  %><h1>
+      <p><%= @restaurant.address %></p>
+      <p><%= @restaurant.category %></p>
+    </div>
+  </div>
+</div>
+
+<%= link_to "Back to Felp", restaurants_path %>
